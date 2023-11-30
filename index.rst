@@ -31,3 +31,14 @@ campaign.
 
 Site admins perform wish lists moderation and gift-giving campaign support, and
 cannot cancel, modify or remove users events.
+
+Wish lists
+----------
+
+Wish lists are personal collections of their desired gifts.
+
+-   Wish list is available for its owner and site admins only.
+-   Wish list is temporary available for the other users assigned as a giver
+    for a person.
+-   Owners can add, modify or remove entries in their wish lists.
+-   Admins can ban some any wish list entry, which makes it to act as removed.
