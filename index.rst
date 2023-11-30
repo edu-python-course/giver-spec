@@ -101,6 +101,11 @@ Admins can remove archived campaigns at any time (campaigns clean-up).
 Running campaigns cannot be manually moved to completed status. This is done
 automatically.
 
+.. rubric:: Campaign life-cycle
+
+.. mermaid:: mermaid/campaign-life-cycle.mmd
+    :align: center
+
 Running the gift-giving campaign
 --------------------------------
 
