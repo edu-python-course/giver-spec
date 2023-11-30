@@ -47,11 +47,14 @@ Wish lists
 Wish lists are personal collections of their desired gifts.
 
 -   Wish list is created for any registered user, except admins.
+-   Users must add at least one item to their wish list before they can
+    use the site.
 -   Wish list is available for its owner and site admins only.
 -   Wish list is temporary available for the other users assigned as a giver
     for a person.
 -   Owners can add, modify or remove entries in their wish lists.
--   Admins can ban some any wish list entry, which makes it to act as removed.
+-   Admins can mark any wish list item as restricted, which makes it to act
+    as deleted one.
 
 Gift-giving campaigns
 ---------------------
