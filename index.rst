@@ -62,7 +62,6 @@ Gift-giving campaigns
 -   Non-admin users can create their own gift-giving campaigns.
 -   Each campaign should have name, description and members list.
 -   The campaign creator is automatically a member and cannot be excluded.
--   There are no limitations on the total number of campaigns created.
 -   Campaigns status can be draft, public, private, or completed.
 -   Admins or the campaign creator can run the campaign if it has at least
     3 members.
@@ -74,6 +73,8 @@ Gift-giving campaigns
     within a specified time.
 -   Admins can remove draft campaigns that haven't been published within
     a specified time.
+-   The number of campaigns a user can join is limited by the number of items
+    in their wish list.
 
 .. rubric:: Draft campaigns
 
