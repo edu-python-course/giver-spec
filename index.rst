@@ -114,6 +114,7 @@ Running the gift-giving campaign
 -   The wish list of the assigned person becomes visible for the gift giver.
 -   The giver can mark any single item within this list as a given gift.
 -   After the gift has been made, wish list acts as normal.
+-   Wish list entry marked as done, cannot be changed by other givers.
 
 .. rubric:: Multiple gifts
 
