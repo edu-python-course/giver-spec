@@ -61,16 +61,34 @@ Gift-giving campaigns
 -   The campaign creator is assigned as a campaign member and cannot be
     excluded.
 -   There is no limitations on the total number of created campaigns.
--   Campaigns can be marked as draft, public or private.
+-   Campaigns can be marked as draft, public, private, or completed.
+-   Admins or campaign creator can run the campaign if there are at least
+    3 members in it.
+-   There is no way to join the campaign if it has been run.
+-   Any user, except creator, can leave the campaign if it hasn't been run.
 
 .. rubric:: Draft campaigns
 
-.. todo
+-   No one user cannot join the draft campaign.
+-   Campaigns can are marked as drafts by default at the campaign creation
+    form.
+-   Campaign creator can publish it by making campaign private or public.
+-   Draft campaigns cannot be run.
 
 .. rubric:: Public campaigns
 
-.. todo
+-   Public campaigns are available for anonymous and authenticated users.
+-   Authenticated users can join any public campaign, unless it hasn't been
+    run.
 
 .. rubric:: Private campaigns
 
-.. todo
+-   Private campaign are available for their members only.
+-   Campaign creator can share join link with other users.
+-   When joined the campaign, it becomes available in the campaigns list.
+
+.. rubric:: Completed campaigns
+
+Actually this means the campaign has been completed and moved to the archive.
+Completed campaigns acts as deleted ones. Admins can remove archived campaigns
+at any time (campaigns clean-up).
