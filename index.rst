@@ -42,3 +42,25 @@ Wish lists are personal collections of their desired gifts.
     for a person.
 -   Owners can add, modify or remove entries in their wish lists.
 -   Admins can ban some any wish list entry, which makes it to act as removed.
+
+Gift-giving campaigns
+---------------------
+
+-   Non-admin users can create their gift-giving campaigns.
+-   Each campaign should have its name, description and members list.
+-   The campaign creator is assigned as a campaign member and cannot be
+    excluded.
+-   There is no limitations on the total number of created campaigns.
+-   Campaigns can be marked as draft, public or private.
+
+.. rubric:: Draft campaigns
+
+.. todo
+
+.. rubric:: Public campaigns
+
+.. todo
+
+.. rubric:: Private campaigns
+
+.. todo
