@@ -126,3 +126,8 @@ many entries, as gift assignments number.
 
 Once all the assignments within a campaign are done, the campaign itself should
 be marked as completed.
+
+REST API
+--------
+
+**All site functions** will be implemented within REST API.
