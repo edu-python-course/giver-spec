@@ -1,0 +1,32 @@
+stateDiagram-v2
+    draft: Draft
+
+    state Public {
+        state start_condition_public <<choice>>
+        state "started" as started_public
+
+        [*] --> start_condition_public
+        start_condition_public --> started_public: if 3 or more members
+    }
+
+    state Private {
+        state start_condition_private <<choice>>
+        state "started" as started_private
+        [*] --> start_condition_private
+        start_condition_private --> started_private: if 3 or more members
+    }
+
+    [*] --> draft
+    [*] --> Public
+    [*] --> Private
+    draft --> [*]: Remove
+
+    state publish_campaign <<fork>>
+    draft --> publish_campaign
+    publish_campaign --> Public
+    publish_campaign --> Private
+
+    state completed <<join>>
+    Public --> completed
+    Private --> completed
+    completed --> [*]
