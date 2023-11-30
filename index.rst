@@ -73,8 +73,8 @@ Gift-giving campaigns
     within a specified time.
 -   Admins can remove draft campaigns that haven't been published within
     a specified time.
--   The number of campaigns a user can join is limited by the number of items
-    in their wish list.
+-   The number of campaigns a user can be member of is limited by the number
+    of items in their wish list.
 
 .. rubric:: Draft campaigns
 
