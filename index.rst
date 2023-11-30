@@ -32,11 +32,21 @@ campaign.
 Site admins perform wish lists moderation and gift-giving campaign support, and
 cannot cancel, modify or remove users events.
 
+Registration and authentication
+-------------------------------
+
+-   Anonymous users may access any public available page.
+-   Anonymous users can register their account by providing a username,
+    fullname, and password.
+-   Anonymous users can login to their existing account.
+-   Authenticated users can logout at any time.
+
 Wish lists
 ----------
 
 Wish lists are personal collections of their desired gifts.
 
+-   Wish list is created for any registered user, except admins.
 -   Wish list is available for its owner and site admins only.
 -   Wish list is temporary available for the other users assigned as a giver
     for a person.
