@@ -66,6 +66,12 @@ Gift-giving campaigns
     3 members in it.
 -   There is no way to join the campaign if it has been run.
 -   Any user, except creator, can leave the campaign if it hasn't been run.
+-   The creator can remove non-running campaigns regardless of members list,
+    creation time, or status.
+-   Admins can remove the campaigns with 3 or less members that has not been
+    run for a specified time.
+-   Admins can remove draft campaigns that has not been published during
+    a specified time.
 
 .. rubric:: Draft campaigns
 
@@ -90,5 +96,33 @@ Gift-giving campaigns
 .. rubric:: Completed campaigns
 
 Actually this means the campaign has been completed and moved to the archive.
-Completed campaigns acts as deleted ones. Admins can remove archived campaigns
-at any time (campaigns clean-up).
+Admins can remove archived campaigns at any time (campaigns clean-up).
+No one cannot move running to the completed status. This action is performed
+automatically.
+
+Running the gift-giving campaign
+--------------------------------
+
+-   Action to run campaigns is available for their creators or site admins.
+-   Once the campaign is in run, no one can join it.
+-   Once the campaign is in run, no one can leave it.
+-   Each campaign member is assigned to give a gift for randomly chosen person
+    within the same campaign.
+
+.. rubric:: Giver access for wish list
+
+-   The wish list of the assigned person becomes visible for the gift giver.
+-   The giver can mark any single item within this list as a given gift.
+-   After the gift has been made, wish list acts as normal.
+
+.. rubric:: Multiple gifts
+
+In general gift-giving campaigns provide the possibility to make one gift at
+a time. But still there are cases, when a specific user can be assigned twice
+to the same giver from different campaigns. In this case giver can mark as
+many entries, as gift assignments number.
+
+.. rubric:: Autocomplete
+
+Once all the assignments within a campaign are done, the campaign itself should
+be marked as completed.
