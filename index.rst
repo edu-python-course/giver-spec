@@ -24,10 +24,10 @@ Users can join multiple gift-giving campaigns without any limit.
 .. rubric:: Personal reminders
 
 Users with empty wish lists will be prompted to place something there.
-Similarly, dormant users users will be prompted to join an existing gift-giving
+Similarly, dormant users will be prompted to join an existing gift-giving
 campaign.
 
-.. rubric:: Administration can't get in the way
+.. rubric:: Administration can't interfere
 
 Site admins provide moderation for wish lists and support gift-giving
 campaigns. But they cannot create their own campaigns, or modify or remove
