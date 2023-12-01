@@ -7,7 +7,7 @@ stateDiagram-v2
 
         [*] --> members_public
         members_public --> start_condition_public
-        start_condition_public --> members_public: less than 3 members
+        start_condition_public --> members_public: less than 3
         start_condition_public --> started_public: 3 or more members
         started_public --> [*]
     }
@@ -19,14 +19,12 @@ stateDiagram-v2
 
         [*] --> members_private
         members_private --> start_condition_private
-        start_condition_private --> members_private: less than 3 members
+        start_condition_private --> members_private: less than 3
         start_condition_private --> started_private: 3 or more members
         started_private --> [*]
     }
 
     [*] --> Draft
-    [*] --> Public
-    [*] --> Private
     Draft --> [*]: Remove
 
     state publish_campaign <<fork>>
