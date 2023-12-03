@@ -1,0 +1,5 @@
+project_id: "631396"
+commit_message: "[Crowdin] New translations %file_name% (%language%)"
+files:
+  - source: /_legacy/*.md
+    translation: /i18n/%two_letters_code%/%original_file_name%
