@@ -105,8 +105,15 @@ automatically.
 
 .. rubric:: Campaign life-cycle
 
-.. mermaid:: mermaid/campaign-life-cycle.mmd
-    :align: center
+.. only:: html
+
+    .. mermaid:: mermaid/campaign-life-cycle.mmd
+        :align: center
+
+.. only:: latex
+
+    .. figure:: mermaid/campaign-life-cycle.mmd.png
+        :align: center
 
 Running the gift-giving campaign
 --------------------------------
